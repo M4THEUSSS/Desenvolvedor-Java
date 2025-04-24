@@ -1,5 +1,5 @@
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.FileWriter; // Classe para escrever no arquivo 
+import java.io.IOException;  // Classe para tratar exceções do arquivo
 import java.util.Scanner;
 
 public class App {
@@ -27,7 +27,7 @@ public class App {
         System.out.println("6 Carro");
             System.out.println("Escolha uma opção (1-6)");
 
-        // exercício
+        // Exercício
         //faça como eu fiz 
         // leia a opcaoTransporte e mostre a opção lida
         // casting (Conversão)  - texto/número
