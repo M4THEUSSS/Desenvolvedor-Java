@@ -56,5 +56,15 @@ public class App {
         //Task no GitHub
 
           System.out.println("Hello, World!");
+
+
+          try(FileWriter escritor = new FileWriter("dados.txt",true )){
+
+            escritor.write(nome+","+meioTransporte+"\n");
+            System.out.println("Dados Salvos com Sucesso");
+
+          }catch(IOException e){
+              System.out.println("Erro ao gravar os Dados "+e.getMessage());
+          }
     }
 }
